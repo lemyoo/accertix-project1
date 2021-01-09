@@ -1,0 +1,48 @@
+:root{
+    --colorOne: #F1EDE8;
+    --colorTwo: #FBFAFA;
+    --yellow: #F3AC51;
+    --colorFour: #F4F2F0;
+    --green: #3DA381;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+.main{
+    height: 60px;
+    /*margin-top: 0;*/
+
+}
+.my-image{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+.font-style{
+    padding-top: 9px ;
+    color: var(--yellow);
+}
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    padding-top: 20px;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+a:visited {
+    color:black; 
+    text-decoration:none;
+}
+
+.main:hover {
+    background: var(--yellow);
+    color: white!important;
+    -webkit-box-shadow: 0px 11px 15px -1px rgba(0,0,0,0.28); 
+    box-shadow: 0px 11px 15px -1px rgba(0,0,0,0.28);
+}
+.counter-counter{
+ padding-left: 10px!important;
+}

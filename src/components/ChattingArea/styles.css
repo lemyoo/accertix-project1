@@ -1,0 +1,23 @@
+.data-point-style{
+    background-color: antiquewhite;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.text{
+    padding: 1px 5px;
+}
+.imojie{
+    position: relative;
+    left: 88%;
+    width: 15%;
+    padding: 1px 5px;
+}
+
+.img-style{
+    width: 40%;
+    height: auto;
+}
+.video-style{
+    height: 200px;
+    width: 200px;
+}

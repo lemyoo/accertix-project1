@@ -1,0 +1,26 @@
+:root{
+    --colorOne: #F1EDE8;
+    --colorTwo: #FBFAFA;
+    --yellow: #F3AC51;
+    --yellow-low: rgba(243,172,51,0.7);
+    --colorFour: #F4F2F0;
+    --green: #3DA381;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+.child{
+    background-color: var(--yellow-low);
+    font-family: Noto, sans-serif;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.child:hover {
+    background: white;
+    color: black;
+    -webkit-box-shadow: 0px 11px 15px -1px rgba(0,0,0,0.28); 
+    box-shadow: 0px 11px 15px -1px rgba(0,0,0,0.28);
+}

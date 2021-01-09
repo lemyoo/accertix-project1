@@ -1,0 +1,37 @@
+:root{
+    --colorOne: #ebe5de;
+    --colorTwo: #FBFAFA;
+    --yellow: #F3AC51;
+    --colorFour: #F4F2F0;
+    --green: #3DA381;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+.user-details{
+    height: 50px;
+    background-color: white;
+    -webkit-box-shadow: 1px 11px 15px -1px rgba(0,0,0,0.28); 
+    box-shadow: 1px 3px 15px -1px rgba(0,0,0,0.28);  
+
+}
+.dp{
+    height: 40px;
+    width: auto;
+    margin-right: 0;
+}
+.user-details:hover{
+    -webkit-box-shadow: 1px 11px 15px -1px rgba(0,0,0,0.28); 
+    box-shadow: 1px 11px 15px -1px rgba(0,0,0,0.28);  
+    z-index: 3;
+}
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Roboto;
+    color: var(--yellow);
+}
+.icon{
+    display: block;
+    float: right;
+}

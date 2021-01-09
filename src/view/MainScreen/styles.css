@@ -1,0 +1,16 @@
+.contact-list{
+    height: 100vh;
+    overflow: scroll;
+}
+.chatt-window{
+    height: 100vh;
+    overflow: scroll;
+}
+div::-webkit-scrollbar {
+    width: 2px;
+}
+div::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    box-shadow: inset 0 0 3px black;
+    -webkit-box-shadow: inset 0 0 3px black;
+}

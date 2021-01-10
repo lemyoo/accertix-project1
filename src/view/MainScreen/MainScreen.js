@@ -6,6 +6,7 @@ import ContactInfo from '../../components/ContactInfo/ContactInfo'
 import './styles.css';
 
 function MainScreen() {
+    
     return (
         <div className="container-fluid ">
             <div className="row">
@@ -14,12 +15,12 @@ function MainScreen() {
                 </div>
             </div>
             <div className="row">
-                <div className="col-12 col-sm-5 col-md-3">
+                <div className="col-12 col-sm-5 col-md-3 d-sm-block" id="contact-area-toggle">
                     <div className="contact-list">
                         <ContactList />
                     </div>
                 </div>
-                <div className="col-sm-7 col-md-6 d-none d-sm-block">
+                <div className="col-sm-7 col-md-6 d-sm-block" id="chatting-area-toggle">
                     <div className="chatt-window">
                         <ChattingArea />
                     </div>

@@ -18,11 +18,9 @@ const Parent = (props) => {
     const toggleAction = () => {
         if (show === "none") {
             setShow("block");
-            console.log(show);
             return show;
         } else {
             setShow("none");
-            console.log(show);
             return show;
         }
     }

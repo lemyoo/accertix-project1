@@ -62,7 +62,7 @@ export default function ChattingArea() {
                             <th scope="col">Data Type</th>
                             <th scope="col">Value</th>
                             <th scope="col">Time Stamp(Date)</th>
-                            <th scope="col">Time Stamp (hh:mm:ss)</th>
+                            <th scope="col">Time Stamp (hh:mm:ss:mmm)</th>
                         </tr>
                     </thead>
                     <tbody>

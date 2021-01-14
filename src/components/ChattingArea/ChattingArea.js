@@ -8,7 +8,7 @@ export default function ChattingArea() {
     return (
         <div className="container-fluid">
             <div className="row">
-                <table className="table table-bordered">
+                <table className="table table-bordered table-responsive">
                     <thead>
                         <tr>
                             <th scope="col">Data Type</th>

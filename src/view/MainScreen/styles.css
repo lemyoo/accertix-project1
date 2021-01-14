@@ -1,16 +1,17 @@
-.contact-list{
-    height: 100vh;
+.contact-list,.contact-window{
+    height: 89vh;
     overflow: scroll;
 }
 .chatt-window{
-    height: 100vh;
+    height: 83vh;
     overflow: scroll;
 }
+
 div::-webkit-scrollbar {
     width: 2px;
 }
 div::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    box-shadow: inset 0 0 3px black;
-    -webkit-box-shadow: inset 0 0 3px black;
+    box-shadow: 0 0 3px black;
+    -webkit-box-shadow: 0 0 3px black;
 }

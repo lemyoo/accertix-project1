@@ -15,8 +15,6 @@ export default function Child(props) {
     }
 
     useEffect(() => {
-        console.log(expand)
-        console.log('resized to',window.innerWidth);
         if(expand && window.innerWidth<576){
             document.getElementById("chatting-area-toggle").style.display="block"
             document.getElementById("contact-area-toggle").style.display="none"

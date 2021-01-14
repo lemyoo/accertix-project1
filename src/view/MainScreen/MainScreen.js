@@ -21,11 +21,13 @@ function MainScreen() {
                     </div>
                 </div>
                 <div className="col-sm-7 col-md-6 d-sm-block" id="chatting-area-toggle">
-                    <div className="chatt-window">
-                        <ChattingArea />
+                    <div className="d-flex flex-column">
+                        <div className="chatt-window">
+                            <ChattingArea />
+                        </div>
                     </div>
                 </div>
-                <div className="col-md-3 pl-1 d-none d-sm-block">
+                <div className="col-md-3 pl-1 d-none d-sm-block contact-window">
                     <ContactInfo />
                 </div>
             </div>
